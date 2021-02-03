@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("bacground.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+	width: 800px;
+	height: 600px;
+}
+
+h1, h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Racing</title>
+</head>
+<body onload="add()">
+<center>
+<h1>Racing</h1>
+<canvas id="myCanvas" width= "800px" height="600px"></canvas>
+<h4 class="text-danger">
+	<b>NOTE : </b> IF CARS ARE NOT VISIBLE PRESS ANY ARROW KEY
+</h4>
+<h4 class="text-danger">
+	<b>NOTE : </b> CONTROL THE YELLOW CAR USING THE WASD KEYS AND
+</h4>
+<h4 class="text-danger">
+	CONTROL THE BLUE CAR USING THE ARROW KEYS
+</h4>
+
+</center>
+<script src="edit.js">
+</script>
+</body>
+</html>
